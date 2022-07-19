@@ -16,8 +16,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -26,7 +24,9 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Screenshot
 
-![](./screenshot.jpg)
+- Desktop
+
+![](design/1.jpeg)
 
 
 ### Links
@@ -38,23 +38,19 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Built with
 
-
+CSS Grid
 
 ### What I learned
 
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+
 ```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+
 ```
 
 

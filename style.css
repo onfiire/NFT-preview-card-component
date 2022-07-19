@@ -31,11 +31,12 @@ html:focus-within {
   }
 
 img,
-picture,
-svg {
+picture {
   max-width: 100%;
   display: block;
-
+  margin-bottom: 20px;
+  width: 300px;
+  border-radius: 5px;
 }
 
   @media (prefers-reduced-motion: reduce) {
@@ -56,7 +57,7 @@ svg {
 body {
   height: 100vh;
   text-rendering: optimizeSpeed;
-  line-height: 1.2;
+  line-height: 1.5;
   font-size: 18px;
   font-family: Outfit;
 }
@@ -67,13 +68,117 @@ body {
   height: 100vh;
   background-color: hsl(217, 54%, 11%);
   justify-items: center;
+  align-items: center;
 }
 
-.container {
+.main-container {
   background-color: hsl(216, 50%, 16%);
   width: 300px;
+  height: 540px;
+  padding: 25px;
+  border-radius: 15px;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
 
+a:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+p {
+  color: hsl(215, 51%, 70%);
+}
+
+h3 {
+  color: hsl(178, 100%, 50%);
+  display: inline-block;
+  font-size: 14px;
+  margin-bottom: -10px;
+}
+
+.line {
+  border-bottom: 1px solid hsl(215, 51%, 70%);
+}
+
+.description {
+  margin-top: 20px;
+  width: 300px;
+  font-size: 16px;
+  font-weight: var(--fw-light);
+}
+
+.price-container {
+  display: grid;
+  grid-template-columns: 0.18fr 1fr;
+  margin-top: 20px;
+}
+
+.clock-container {
+  display: grid;
+  grid-template-columns: 0.8fr 1fr;
+  justify-items: end;
+  margin-top: 20px;
+}
+
+.information {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr)
+}
+
+.eth {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.clock {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.day-left {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.line {
+  margin-top: 20px;
+}
+
+.avatar-container {
+  display: grid;
+  grid-template-columns: 0.4fr 0.6fr 1fr;
+}
+
+.avatar {
+  width: 40px;
+  display: inline-block;
+  margin-top: 20px;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.who {
+  font-weight: var(--fw-light);
+  font-size: 14px;
+  width: 80px;
+  display: inline-block;
+  margin-top: 30px;
+  text-align: right;
+}
+
+.creator {
+  font-size: 14px;
+  width: 100px;
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 3px;
+}
+
+.creator:hover {
+  color: var(--cyan)
+}
 
 
