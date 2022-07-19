@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+    --softblue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+
+    --verydarkblue1: hsl(217, 54%, 11%);
+    --verydarkblue2: hsl(216, 50%, 16%);
+    --verydarkblue3: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-bold: 600;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+html:focus-within {
+    scroll-behavior: smooth;
+  }
+
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+
+}
+
+  @media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+     scroll-behavior: auto;
+    }
+    
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+body {
+  height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.2;
+  font-size: 18px;
+  font-family: Outfit;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  justify-items: center;
+}
+
+.container {
+  background-color: hsl(216, 50%, 16%);
+  width: 300px;
+}
+
+
+
+
