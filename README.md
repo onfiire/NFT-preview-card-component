@@ -31,7 +31,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://onfiire.github.io/NFT-preview-card-component/](https://onfiire.github.io/NFT-preview-card-component/)
 
 
 ## My process
@@ -65,7 +65,7 @@ CSS Grid
 ## Author
 
 
-- Frontend Mentor - [@onfire](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@onfiire](https://www.frontendmentor.io/profile/onfiire)
 
 
 ## Acknowledgments
